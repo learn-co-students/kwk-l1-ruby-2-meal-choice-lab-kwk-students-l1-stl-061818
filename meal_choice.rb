@@ -5,16 +5,16 @@ end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
-def breakfast(brekkyfast_food="frosted flakes")
-  puts "mmm have some #{brekkyfast_food} this fine morning"
+def breakfast(breakfast="frosted flakes")
+  puts "mmm have some #{breakfast} this fine morning"
 end
 
-def lunch(lunchy_lunch="grilled cheese")
-puts "lunch time kiddo! eat some #{lunchy_lunch}"
+def lunch(lunch="grilled cheese")
+puts "lunch time kiddo! eat some #{lunch}"
 end
 
-def dinner(din_din="salmon")
-  puts "eat some #{din_din} for dinner buddy!"
+def dinner(dinner="salmon")
+  puts "eat some #{dinner} for dinner buddy!"
 end 
 
 
@@ -29,9 +29,9 @@ end
 
 # call your methods here
 
-breakfast("z-bars")
-lunch("sushi ai")
-dinner("food")
+breakfast("pancakes")
+lunch("peanut butter")
+dinner("broccoli")
 
 # Call your methods without any arguments here
 breakfast
